@@ -8,3 +8,4 @@
     - name: print course information
       ansible.builtin.debug:
         msg: "couser is {{COURSE}}, Duration is {{DURATION}},Trainner is {{TRAINNER}}"
+ 
