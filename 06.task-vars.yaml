@@ -11,8 +11,8 @@
       vars: # task level varibles ,accessble only with in the task.Task variables  can override play level variables.
         COURSE: Ansible
       ansible.builtin.debug:
-        msg: "Course is {{COURSE}}, Duration is {{DURATION}}, Trainner is {{TRAINNER}}"
+        msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, Trainner is {{ TRAINNER }}"
 
     - name: Print the variables1
       ansible.builtin.debug:
-        msg: "Course is {{COURSE}}, Duration is {{DURATION}}, Trainner is {{TRAINNER}}"
+        msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, Trainner is {{ TRAINNER }}"
