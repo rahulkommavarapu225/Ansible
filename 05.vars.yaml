@@ -3,9 +3,9 @@
   connection: local
 
   vars:
-  COURSE: Devops with aws
-  DURATION: 120 hours
-  TRAINNER: SivaKuamr
+    COURSE: Devops with aws
+    DURATION: 120 hours
+    TRAINNER: SivaKuamr
 
   tasks:
     - name: print the variables
