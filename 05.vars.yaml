@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-
-- name: Print the variables
-  ansible.builtin.debug:
-    msg: "Course is Devops with Aws ,Duration is 120 hours,Trainer by Siva Kumar reddy Sir"
+    - name: Print the variables
+      ansible.builtin.debug:
+      msg: "Course is Devops with Aws ,Duration is 120 hours
+        Trainner is Sivakumar Reddy Sir"
