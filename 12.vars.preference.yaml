@@ -10,8 +10,8 @@
       prompt: Enter the Values
       private: false
   tasks:
-    # - name: print the variables
-    #   vars:
-    #     GREET: "TASK"
-    ansible.builtin.debug:
-      msg: "hello from {{GREET}}"
+    - name: print the variables
+      # vars:
+      #   GREET: "TASK"
+      ansible.builtin.debug:
+        msg: "hello from {{GREET}}"
