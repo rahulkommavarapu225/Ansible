@@ -56,6 +56,6 @@
 
     - name: Convert ipaddress is Valid or not
       vars:
-        ip: "256.325.385.345.564"
+        ip: "192.166.1.12"
       ansible.builtin.debug:
         msg: "{{ ip | ansible.utils.ipaddr }}"
