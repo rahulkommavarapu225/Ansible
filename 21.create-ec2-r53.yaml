@@ -63,5 +63,5 @@
         value: "{{ item.instances[0].public_ip_addresess }}"
         wait: true
         overwrite: true
-    - loop: "{{ ec2_info.results }}"
+      loop: "{{ ec2_info.results }}"
       when: item.item == "frontend"
