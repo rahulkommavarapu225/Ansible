@@ -7,7 +7,7 @@
     sg_id: sg-00909238519d1b46e
     ami_id: ami-0220d79f3f480ecf5
     instance_type: t3.micro
-    zone: ansible.frontend.practice25.online
+    zone: practice25.online
     instances:
       - mysql1
       - backend1
