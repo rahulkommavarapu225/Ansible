@@ -43,10 +43,10 @@
 
     - name: create private ip r53 records
       amazon.aws.route53:
-        state: prasent
+        state: present
         zone: "{{ zone }}"
         record: "{{ item.item }}.{{ zone }}"
-        type: a
+        type: A
         ttl: 1
         value: "{{ item.instances[0].private_ip_address }}"
         wait: true
