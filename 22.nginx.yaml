@@ -1,9 +1,9 @@
 - name: nginx installation
   hosts: nginx
-  bacome: yes
+  become: yes
 
-  tasks: 
-    - name : install nginx
+  tasks:
+    - name: install nginx
       ansible.builtin.package:
         name: nginx
-        state : present
+        state: present
