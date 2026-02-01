@@ -3,7 +3,6 @@ regions:
   - us-east-1
 
 filters:
-  tag:Name: nginx
   instance-state-name: running
 
 compose:
