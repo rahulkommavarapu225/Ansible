@@ -7,7 +7,7 @@ filters:
   instance-state-name: running
 
   hostname:
-    - private_ip_address
+    - public_ip_address
 
 compose:
-  ansible_host: public_ip_address
+  ansible_host: private_ip_address
