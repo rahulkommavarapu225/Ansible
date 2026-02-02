@@ -3,7 +3,7 @@ regions:
   - us-east-1
 
 filters:
-  tag:Name: ansible server
+  tag:Role: frontend
   instance-state-name: running
 
 compose:
