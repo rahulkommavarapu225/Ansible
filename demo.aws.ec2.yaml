@@ -3,7 +3,7 @@ regions:
   - us-east-1
 
 filters:
-  tag:Name: nginx
+  tag:Name: ansible server
   instance-state-name: running
 
 compose:
